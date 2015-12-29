@@ -1,0 +1,32 @@
+Circuit: * Z:\home\lab\projects\ltspice_exos\nmos.asc
+
+Direct Newton iteration for .op point succeeded.
+.step x=10
+.step x=20
+.step x=30
+.step x=40
+.step x=50
+.step x=60
+.step x=70
+.step x=80
+.step x=90
+.step x=100
+
+Date: Fri Dec 18 20:21:06 2015
+Total elapsed time: 0.382 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2086
+traniter = 2079
+tranpoints = 1028
+accept = 1028
+rejected = 0
+matrix size = 6
+fillins = 0
+solver = Normal
+Matrix Compiler1: 146 bytes object code size  0.5/0.5/[0.4]
+Matrix Compiler2: 380 bytes object code size  0.4/0.5/[0.4]
+
+

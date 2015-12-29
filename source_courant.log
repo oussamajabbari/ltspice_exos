@@ -1,0 +1,73 @@
+Circuit: * Z:\home\lab\projects\ltspice_exos\source_courant.asc
+
+.step y=1
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q1
+Model:      pnp
+Ib:      -2.50e-02
+Ic:      -8.97e-01
+Vbe:     -9.51e-01
+Vbc:     -8.45e-01
+Vce:     -1.06e-01
+BetaDC:   3.59e+01
+Gm:       3.53e+01
+Rpi:      2.79e+00
+Rx:       0.00e+00
+Ro:       1.65e+00
+Cbe:      0.00e+00
+Cbc:      0.00e+00
+Cjs:      0.00e+00
+BetaAC:   9.83e+01
+Cbx:      0.00e+00
+Ft:       0.00e+00
+
+
+.step y=1001
+.step y=2001
+.step y=3001
+.step y=4001
+.step y=5001
+.step y=6001
+.step y=7001
+.step y=8001
+.step y=9001
+.step y=10000
+
+Date: Tue Dec 29 10:31:26 2015
+Total elapsed time: 1.885 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 8
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 11
+fillins = 1
+solver = Normal
+Matrix Compiler1: 548 bytes object code size
+Matrix Compiler2: 1003 bytes object code size
+
